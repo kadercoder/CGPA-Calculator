@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int numClasses;
     string letter;
-    double credits;
+    int credits;
     cout << "GPA Calculator" << endl;
     cout << "______________" << endl;
     cout << "Enter the number of classes:   ";
@@ -22,7 +22,7 @@ int main(){
             cin >> credits;
             cout << endl;
 
-            //grading sca;e
+            //grading scale
             if (letter == "A") {
                 grade += (4.0 * credits);
             } else if (letter == "B") {
